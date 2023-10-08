@@ -6,8 +6,6 @@ import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
 
-// top-0 z-40 mx-auto w-full flex-none bg-white transition-all duration-100 ease-in dark:bg-slate-900 md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90
-
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/90 transition-all duration-100 ease-in md:backdrop-blur-sm">
